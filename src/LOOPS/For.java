@@ -10,10 +10,11 @@ public class For {
 		System.out.println("enter the number");
 		int number= cd.nextInt();
 		
-		
+		Scanner cd=new Scanner(System.in);
 	 for(int i=0; i<=number; i++) {
 		 System.out.println(i);
 	 }
+		Scanner cd=new Scanner(System.in);
 	}
 
 }
